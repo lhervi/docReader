@@ -18,7 +18,7 @@ def extract_text(doc):
     else:
         return None
 
-file = "C:\\Users\\lorni\\Documents\\09 STI\\Desarrollo\\prueba_lectura_archivos_doc\\informe_unix_con_comentarios2.docx"
+file = "C:\\Users\\lorni\\Documents\\Desarrollo\\prueba_lectura_archivos_doc\\informe_unix_con_comentarios2.docx"
 
 # Obtiene el nombre base del archivo de Word
 file_name = os.path.splitext(os.path.basename(file))[0]
